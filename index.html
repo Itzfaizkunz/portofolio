@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz - Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-icons">
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-terminal"></i>
+            </div>
+            <h1>
+                <span class="line-1">WELCOME TO MY</span>
+                <span class="line-2">PORTFOLIO WEBSITE</span>
+            </h1>
+            <p id="typing-text"></p>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Faiz.</a>
+            <input type="checkbox" role="button" aria-label="Display the menu" class="menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div class="hero-container">
+                
+                <div class="hero-profile">
+<img src="images/foto.jpg" alt="Foto Profil Faiz">
+                </div>
+
+                <div class="hero-text">
+                    <h1>Frontend <span class="gradient-text">Developer</span></h1>
+                    <h2 class="dynamic-text-container">
+                        <span id="dynamic-text"></span>
+                    </h2>
+                    <p>Menciptakan Website yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="cta-button">Projects</a>
+                        <a href="#contact" class="cta-button-outline">Contact</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://www.github.com" target="_blank">
+                        <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/okzfaiz._/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-container">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p>
+                        Halo! Saya Faiz, seorang siswa yang duduk di bangku sma yang meminati dunia teknologi dan pengembang frontend yang bersemangat dengan kemampuan membuat aplikasi web yang indah, fungsional, dan berpusat pada pengguna. Saya suka mengubah masalah rumit menjadi desain yang sederhana dan intuitif. Saat saya tidak sedang coding, Anda akan menemukan saya menjelajahi tren teknologi terkini atau menikmati secangkir kopi.
+                    </p>
+                </div>
+                <div class="about-skills" data-aos="fade-left" data-aos-delay="400">
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i> HTML</li>
+                        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-brands fa-react"></i> React</li>
+                        <li><i class="fa-brands fa-git-alt"></i> Git</li>
+                        <li><i class="fa-brands fa-python"></i> Python </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title" data-aos="fade-up">My Portfolio</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/kalkulator.png" alt="Gambar Proyek 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Kalkulator</h3>
+                        <p>Kalkulator Project dengan tampilan yang simple dan mudah untuk di gunakan, saya menggunakan HTML,CSS, Dan Java Script.</p>
+                        <a href="https://lighthearted-churros-2ec55c.netlify.app/" target="_blank" class="project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/38bdf8/white?text=Project+2" alt="Gambar Proyek 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title 2</h3>
+                        <p>Short description of the project, what it does, and what technologies were used.</p>
+                        <a href="#" class="project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/38bdf8/white?text=Project+3" alt="Gambar Proyek 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title 3</h3>
+                        <p>Short description of the project, what it does, and what technologies were used.</p>
+                        <a href="#" class="project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Tertarik untuk berkolaborasi atau memiliki pertanyaan? <br>
+                Jangan ragu untuk menghubungi saya.
+            </p>
+            <form action="https://formspree.io/f/mgvydyve" method="POST" class="contact-form" data-aos="zoom-in" data-aos-delay="200">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Faiz. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
